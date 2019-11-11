@@ -1,0 +1,7 @@
+{
+  "name": "AppAddvalora",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

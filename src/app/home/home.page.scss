@@ -1,0 +1,30 @@
+.welcome-card img {
+  max-height: 35vh;
+  overflow: hidden;
+}
+
+ion-content{
+
+  --ion-background-color: #E09B51;
+}
+
+ion-card {
+  background-color: white;
+}
+ion-card-content{
+  background-color: white;
+}
+
+ion-item{
+  font-weight: bold; 
+  font-size: 150%;
+  color: white;
+  
+}
+
+ion-icon {
+  font-size: 150%;
+  //color: rgb(6, 6, 122);
+}
+
+  

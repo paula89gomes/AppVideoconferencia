@@ -1,0 +1,24 @@
+
+<ion-content class="ion-padding" id="login">
+  <img src="/assets/img/ZEbQywN5QaeW04T89e59_logo.gif" style="display:block;width:100%;height:auto;margin-left:auto;margin-right:auto;" />
+  <form id="login-form1">
+    <ion-list id="login-list2">
+      <ion-item id="login-input1">
+        <ion-label floating>
+          Email
+        </ion-label>
+        <ion-input type="email" [(ngModel)] = "email" name='email'></ion-input>
+      </ion-item>
+      <ion-item id="login-input2">
+        <ion-label floating>
+          Senha
+        </ion-label>
+        <ion-input type="password"  [(ngModel)] = "senha" name='senha'></ion-input>
+      </ion-item>
+    </ion-list>
+    <div class="spacer" id="login-spacer1"></div>
+    <button id="btnEntrar" ion-button full (click)="logar()" >
+      <b>Entrar</b>
+    </button>
+  </form>
+</ion-content>
